@@ -30,7 +30,7 @@ router.post('/',
       result.errors = errors.array();
       return res.render('quote', result);
     }
-    // Set up backend request with appropriate type and unit conversions
+    // Set up backend request with appropriate type and unit conversions  
     var backendRequest = {};
     backendRequest.age = Number(req.body.age);
     backendRequest.weight = Number(req.body.weight) * 0.453592; // pounds to kg

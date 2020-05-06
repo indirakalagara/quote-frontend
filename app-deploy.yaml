@@ -12,6 +12,7 @@ metadata:
     image.opencontainers.org/title: quote-frontend
     stack.appsody.dev/version: 0.2.10
   name: quote-frontend
+  namespace: ind-insurance-quote
 spec:
   applicationImage: dev.local/quote-frontend
   createKnativeService: false
